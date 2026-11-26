@@ -53,7 +53,7 @@ Node* createTestTree()
 
     root->left = new Node("B");
     root->right = new Node("C");
-    root->left->left = new Node("D");
+    root->left->right = new Node("D");
 
     return root;
 }
